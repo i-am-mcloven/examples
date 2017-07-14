@@ -23,7 +23,7 @@ try:
     s.set_debuglevel(True)
     s.starttls()
     s.ehlo()
-    s.login ('FE_KH@splunk.com', 'Kn0wl3dg3')
+    s.login ('email@domain.com', 'password')
     s.sendmail (sender, receivers, message)
     s.quit()
 
